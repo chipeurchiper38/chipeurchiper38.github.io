@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Web Designer FR</title>
+<style>
+:root{--bg:#FFF7F4;--fg:#241330;--muted:#6E5A78;--accent:#E0207A;--card:#FFFFFF;--line:#F1DCE4;color-scheme:light}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#170B1F;--fg:#F7ECF3;--muted:#BFA9C9;--accent:#FF6FB0;--card:#22112D;--line:#3A2148;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#170B1F;--fg:#F7ECF3;--muted:#BFA9C9;--accent:#FF6FB0;--card:#22112D;--line:#3A2148;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6;margin:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px}
+main{max-width:720px;margin:0 auto;display:grid;gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+h1{font-size:2rem;margin:0;text-wrap:balance}
+h2{font-size:1.1rem;margin:0 0 8px;color:var(--accent)}
+p,li{font-size:1rem;overflow-wrap:anywhere}
+ul{margin:0;padding-left:1.2em}
+.muted{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<div class="card">
+<h1>Web Designer FR</h1>
+<p class="muted">Création de sites internet, d'applications mobiles et de vidéos pour particuliers et professionnels.</p>
+</div>
+<div class="card">
+<h2>Ce que je fais</h2>
+<ul>
+<li>Sites internet (vitrine, e-commerce, portfolio)</li>
+<li>Applications mobiles (iOS et Android)</li>
+<li>Vidéos de présentation et publicitaires</li>
+</ul>
+</div>
+<div class="card">
+<h2>Contact</h2>
+<p>Écrivez-moi en message privé sur TikTok, Instagram, YouTube ou Snapchat : <strong>webdesignerfr</strong>.</p>
+<p class="muted"><a href="https://claude.ai/artifact/GKKEXXv1yobo7DcMN9Pyft">Politique de confidentialité</a> · <a href="https://claude.ai/artifact/KeKbnJGaTujn38qLerBC9u">Conditions d'utilisation</a></p>
+</div>
+</main>
+</body>
+</html>
